@@ -2,7 +2,7 @@ package bidec;
 
 import java.math.BigDecimal;
 
-class CorpsBD {
+public class CorpsBD {
 
     public BigDecimal[] param;
 

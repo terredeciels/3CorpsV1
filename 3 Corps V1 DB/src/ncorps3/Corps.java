@@ -1,6 +1,6 @@
 package ncorps3;
 
-class Corps {
+public class Corps {
 
     public double[] param;
 
