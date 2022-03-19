@@ -3,7 +3,7 @@ package ncorps3;
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
 
-public class Calcul {
+class Calcul {
 
 
     public Calcul(Initialisation init) {

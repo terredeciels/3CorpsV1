@@ -1,8 +1,9 @@
 package ncorps3;
 
+
 import static java.lang.Math.random;
 
-public class Initialisation {
+class Initialisation {
 
     final double Gm; // < 0
     final Corps[][] NCorpsT0;

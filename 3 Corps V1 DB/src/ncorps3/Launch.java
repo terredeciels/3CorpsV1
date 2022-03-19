@@ -1,6 +1,8 @@
 package ncorps3;
 
-public class Launch {
+import bidec.LaunchBD;
+
+class Launch {
     private static final int Tmax = 25;
     static int DimXYZ = 100;
 
@@ -11,6 +13,11 @@ public class Launch {
         Initialisation init = new Initialisation(gm, Tmax, pas, DimXYZ);
         init.calculate();
         print(init);
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        //new LaunchBD();
+        LaunchBD.main(argv);
     }
 
     private static void print(Initialisation init) {

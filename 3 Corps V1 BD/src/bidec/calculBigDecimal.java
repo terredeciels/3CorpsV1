@@ -3,9 +3,9 @@ package bidec;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
-import static java.math.RoundingMode.*;
+import static java.math.RoundingMode.HALF_DOWN;
 
-public class calculBigDecimal {
+class calculBigDecimal {
     private static final int scale = 20;
     private static final RoundingMode roundingMode = HALF_DOWN;
 
