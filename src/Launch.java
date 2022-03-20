@@ -49,29 +49,22 @@ class Launch {
 //            System.out.println(" ; ");
 //        }
 //    }
-private static void printD(InitialisationBD init) {
-    CorpsBD[][] I = init.NCorpsT0;
-    for (int n = 0; n < 3; n++) {
-        BigDecimal[] param = I[n][0].param;
-        System.out.print(param[0]);
-        System.out.print(" ; ");
-        System.out.print(param[1]);
-        System.out.print(" ; ");
-        System.out.print(param[2]);
-        System.out.println(" ; ");
-    }
-}
+
+
     private static void printBD(InitialisationBD init) {
         CorpsBD[][] I = init.NCorpsT0;
-        for (int n = 0; n < 3; n++) {
-            BigDecimal[] param = I[n][0].param;
-            System.out.print(param[0]);
-            System.out.print(" ; ");
-            System.out.print(param[1]);
-            System.out.print(" ; ");
-            System.out.print(param[2]);
-            System.out.println(" ; ");
+        for (int i = 0; i < Tmax; i++) {
+            for (int n = 0; n < 3; n++) {
+                BigDecimal[] param = I[n][i].param;
+                System.out.print(param[0]);
+                System.out.print(" ; ");
+                System.out.print(param[1]);
+                System.out.print(" ; ");
+                System.out.print(param[2]);
+                System.out.println(" ; ");
+            }
         }
+
     }
 
 

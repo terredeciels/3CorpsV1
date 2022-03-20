@@ -11,8 +11,8 @@ class CalculBD {
         BigDecimal Gm = init.Gm;
         CorpsBD[][] ncorps = init.NCorpsT0;
         BigDecimal pas = init.pas;
-        int scale = 20;
-        int precision = 20;
+        int scale = 12;
+        int precision = 12;
         MathContext mc = new MathContext(precision);
         RoundingMode rnd = RoundingMode.HALF_DOWN;
         for (int k = 0; k < init.Tmax - 1; k++) {
